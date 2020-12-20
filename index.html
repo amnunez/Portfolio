@@ -1,0 +1,94 @@
+<!--
+html elements:
+doctype, html, head, body, meta, title,
+h1, h2, h3, p, link, ul, ol, img, a, hr
+
+css elements:
+background, color, font-family, font-size,
+height, margin, padding, text-align
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Adrian Nunez Portfolio</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class = "head-wrapper">
+        <a href = "index.html">
+        <img id = "logo" src = "images/AMNBlockColor.png" alt = "logo for Adrian Nunez's portfolio">
+        </a>
+      <nav id = "nav-bar">
+        <ul>
+          <li><a class = "link-divider" href = "#intro">Introduction</a></li>
+          <li><a class = "link-divider" href="#about">About Me</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class = "clear">
+        </div>
+      </div>
+    </header>
+    <main>
+      <article id="intro">
+      <h1>Adrian Nunez</h1>
+      <h3>Software Developer</h3>
+        <div class="center-content">
+          <img src = "images/AMN.JPG" alt = "Photo of Adrian Nunez">
+        <h2>Hi! I'm Adrian Nunez</h2>
+            <p id = "intro-start">I am a software developer living in Austin, TX</p>
+            <p>My interests include:</p>
+            <ul>
+              <li>Art! Painting, drawing, digital illustrations.. They're all great!</li>
+              <li>Music! I'm a bass player at heart but love piano, guitar, drums and anything else that I can get my hands on.</li>
+              <li>Woodwork! I'm an amateur at best but who doesn't love the smell of freshly cut wood.</li>
+            </ul>
+          </div>
+      </article>
+      <article id="about">
+      <hr>
+        <h2>About Me</h2>
+        <p>In 2018 I graduated from Arizona State University with a Bachelors degree in 
+          GIT(Graphic Information Technology). It was through this degree that I was 
+          introduced to coding and web development. From then on, I was hooked!
+        </p>
+        <p>
+          In November of 2020, in the frenzy that is the job search, I decided to enroll
+          myself as a student at Thinkful to begin my journey as a software developer.
+        </p>
+        <p>
+          If you are looking to add a new face to your development team, please reach out! 
+          I can't wait to learn, grow and create alongside a talented group of developers
+          like yours!
+        </p>
+      </article>
+      <hr>
+      <article id = "contact">
+        <h2>Contact Me</h2>
+        <p>For all inquiries, employment opportunities and general mess-arounds feel free
+          to contact or follow me at any of the following:
+        </p>
+        <ol>
+          <li><a href="https://www.linkedin.com/in/adrianmnunez/" target="_blank">LinkedIn</a></li>
+          <li><a href = "https://github.com/amnunez" target = "_blank">Github</a></li>
+        </ol>
+      </article>
+    </main>
+    <footer>
+      <p>Website author: Adrian Nunez</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
