@@ -1,8 +1,12 @@
+/* Sets the default styles for the entire page */
 body {
   color: black;
   background-color: floralwhite;
   font-family: "Permanent Marker", cursive;
 }
+
+/* Styles the wrapper that contains the top logo & top navigation */
+
 .head-wrapper {
   position: fixed;
   top: 0;
@@ -10,6 +14,8 @@ body {
   background-color: powderblue;
   overflow: hidden;
 }
+/* Logo Styling */
+
 #logo {
   width: 200px;
   float: left;
@@ -17,14 +23,13 @@ body {
   padding-top: 1%;
   margin-left: 4%;
 }
+
+/*Top navigation styling */
 #nav-bar {
   float: right;
   width: 40%;
   line-height: 2.5;
   margin-right: 10%;
-}
-.clear {
-  clear: both;
 }
 #nav-bar ul {
   margin-bottom: 0;
@@ -43,6 +48,8 @@ body {
   padding-right: 5%;
 }
 
+/* Styling for various link states for top navigaton */
+
 ul li a:link,
 ul li a:visited {
   text-decoration: none;
@@ -51,6 +58,8 @@ ul li a:visited {
 ul li a:hover {
   color: darkslategray;
 }
+
+/* Sets default styling for main content of page */
 main {
   margin-top: 10%;
   text-align: center;
@@ -70,12 +79,16 @@ main h3 {
 .center-content {
   text-align: center;
 }
+
+/* Aligns content to the left of the center of the page */
 .center-content p {
   margin-left: auto;
   margin-right: auto;
   width: 57%;
   text-align: left;
 }
+
+/* Styling for the "Introduction" section of the page */
 #intro div img {
   width: 400px;
   border-radius: 10%;
@@ -98,6 +111,9 @@ hr {
   border: none;
   background-color: black;
 }
+
+/* Styling for the "About Me" section of the page */
+
 #about {
   text-align: center;
 }
@@ -111,6 +127,8 @@ hr {
   width: 57%;
   text-align: left;
 }
+
+/* Styling for the "Contact" section of the page */
 #contact {
   text-align: center;
 }
@@ -132,6 +150,8 @@ hr {
   margin-right: auto;
   width: 57%;
 }
+
+/* Sets styling for the various link states in the "Contact" section */
 #contact ol li a:link,
 #contact ol li a:visited {
   text-decoration: none;
@@ -140,6 +160,8 @@ hr {
 #contact ol li a:hover {
   color: darkslategray;
 }
+
+/* Sets styling for the footer of the page */
 footer {
   color: black;
   font-size: 0.8em;
